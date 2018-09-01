@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to RajBot</title>
+	{% include 'header.html' %}
+</head>
+<body>
+
+	<div class="box">
+		{% if current_user.is_authenticated %}
+		<img style="width: 100px; height: 100px;" src="static/903053114-1024x1024.jpg" alt="Logo">
+		<h1 class="title">Name: <label>{{current_user.name}}</label> </h1>
+		<h2 class="subtitle">email <label>{{current_user.email}}</label></h2>
+		<h2 class="subtitle">Sex: <label>Male</label></h2>
+		<a class="button is-primary" href="/logout">LogOut</a>
+		{% else %}
+		<label class="subtitle">Sorry You have not login you can use this services </label>
+		{% endif %}
+	</div>
+
+{% include 'footer.html' %}
+</body>
+</html>

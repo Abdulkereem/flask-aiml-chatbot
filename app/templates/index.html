@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+{%  include 'header.html'%}
+	<div class="container">
+		<div class="notification is-dark">
+			<h1><label style="color: red;">bot:</label> {{response}}</h1><br>
+			<h2><label style="color: red;">user:</label> {{user_input}}</h2>
+			
+
+			<form method="post" action="index">
+				<input type="text" name="chat" class="input"><br><br>
+				<input type="submit" value="talk to bot" class="button is-primary">
+			</form>
+		</div>
+	
+	</div>
+	{% include 'footer.html' %}
+</body>
+</html>

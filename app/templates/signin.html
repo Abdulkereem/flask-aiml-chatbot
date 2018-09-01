@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+{% include 'header.html'%}
+
+<form method="post" action="signin">
+	<div class="container">
+		<input type="text" name="name" placeholder="username" class="input" required=""><br><br>
+
+		<input type="password" name="password" required="" class="input" placeholder="password"><br><br>
+		
+		<input type="submit" value="Sign In" class="button is-danger">
+	</div>
+	
+
+</form>
+
+
+{% include 'footer.html' %}
+</body>
+</html>

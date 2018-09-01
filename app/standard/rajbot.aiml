@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<aiml>
+<!--author: Harmony-->
+<!--licence: Standard-->
+<!--created with: GaitoBot AIML Editor V2.10.0.42867-->
+<category>
+	<pattern>TARGET BOTSTART</pattern>
+	<template>This is the greeting of a GaitoBot conversation.</template>
+</category>
+<category>
+	<pattern>HELLO</pattern>
+	<template>How you doing</template>
+</category>
+<category>
+	<pattern>HELLO RAJ</pattern>
+	<template>welcome my name is Rajbot from Idia</template>
+</category>
+<category>
+	<pattern>WHAT IS YOUR NAME </pattern>
+	<template>my name is RajBot from india</template>
+</category>
+<category>
+	<pattern>AM FINE</pattern>
+	<template>okay that is nice </template>
+</category>
+<category>
+	<pattern>DO YOU KNOW RAJ</pattern>
+	<template>yes i do he his a Handsome India Man</template>
+</category>
+</aiml>

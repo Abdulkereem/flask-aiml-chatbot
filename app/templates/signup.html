@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+{% include 'header.html'%}
+
+<form method="post" action="signup">
+	<div class="container">
+		<input type="text" name="name" placeholder="fullname" class="input" required=""><br><br>
+		<input type="email" name="email" required="" class="input" placeholder="email"><br><br>
+		<input type="text" name="username" placeholder="username" class="input"><br><br>
+		<input type="password" name="password" required="" class="input" placeholder="password"><br><br>
+		<input type="password" name="con_password" required="" class="input" placeholder="confirm password"><br><br>
+
+		<input type="submit" value="Sign Up" class="button is-danger">
+	</div>
+	
+
+</form>
+
+
+{% include 'footer.html' %}
+</body>
+</html>
